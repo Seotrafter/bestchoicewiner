@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Turnip Boy Robs a Bank - A Plantastic Heist Adventure!</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="format-detection" content="telephone=no">
+
+	<meta name="description" content="Play Turnip Boy Robs a Bank - A thrilling heist adventure! Join Turnip Boy and the Pickled Gang in an action-packed roguelite where you explore, loot, and fight your way through an epic bank robbery. Discover wacky weapons and face intense shootouts!">
+	<meta name="keywords" content="Turnip Boy Robs a Bank, action game, roguelite, bank heist, Pickled Gang, wacky weapons, mobile game">
+
+	<meta property="og:title" content="Turnip Boy Robs a Bank - A Plantastic Heist Adventure!">
+	<meta property="og:description" content="Play Turnip Boy Robs a Bank - A thrilling heist adventure! Join Turnip Boy and the Pickled Gang in an action-packed roguelite where you explore, loot, and fight your way through an epic bank robbery. Discover wacky weapons and face intense shootouts!">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://bestchoicewiner.com">
+	<meta property="og:image" content="img/poster.webp">
+
+	<meta name="theme-color" content="#1a1a1a">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link rel="preload" href="files/hero.mp4" as="video" type="video/mp4">
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+
+	<!-- Stylesheets -->
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css?_v=20250311134618" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20250311134618">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__wrapper">
+					<a href="index.html" class="header__logo">
+						<img src="img/logo.webp" alt="Logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="index.html#hero" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="index.html#about" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="index.html#gallery" class="menu__link">Gallery</a>
+								</li>
+								<li class="menu__item">
+									<a href="index.html#reviews" class="menu__link">Reviews</a>
+								</li>
+								<li class="menu__item">
+									<a href="index.html#download" class="menu__link">Download</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions">
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__video">
+					<video autoplay loop muted playsinline>
+						<source src="files/hero.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="hero__overlay"></div>
+				<div class="hero__container">
+					<div class="hero__content">
+						<div class="hero__badge">
+							<i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i>
+							<span>New Release</span>
+						</div>
+						<h1 class="hero__title">
+							<span class="hero__title-top">The Ultimate Heist</span>
+							Turnip Boy Robs a Bank
+							<span class="hero__title-bottom">Join the Pickled Gang</span>
+						</h1>
+						<div class="hero__cards">
+							<div class="hero__card">
+								<i class="fa-solid fa-gun" aria-hidden="true"></i>
+								<div class="hero__card-content">
+									<h3>Wacky Weapons</h3>
+									<p>Discover and use crazy weapons found in the bank</p>
+								</div>
+							</div>
+							<div class="hero__card">
+								<i class="fa-solid fa-vault" aria-hidden="true"></i>
+								<div class="hero__card-content">
+									<h3>Epic Heist</h3>
+									<p>Explore and loot a massive bank complex</p>
+								</div>
+							</div>
+							<div class="hero__card">
+								<i class="fa-solid fa-rotate" aria-hidden="true"></i>
+								<div class="hero__card-content">
+									<h3>Roguelite Action</h3>
+									<p>Each run brings new challenges and rewards</p>
+								</div>
+							</div>
+						</div>
+						<div class="hero__actions">
+							<a href="#download" class="hero__button hero__button--primary">
+								<i class="fa-solid fa-play" aria-hidden="true"></i>
+								<span>Play Now</span>
+							</a>
+							<a href="#trailer" class="hero__button hero__button--secondary">
+								<i class="fa-solid fa-film" aria-hidden="true"></i>
+								<span>Watch Trailer</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="#about" class="hero__scroll">
+					<div class="hero__scroll-text">Discover More</div>
+					<div class="hero__scroll-icon">
+						<i class="fa-solid fa-angles-down" aria-hidden="true"></i>
+					</div>
+				</a>
+			</section>
+
+			<section class="about" id="about">
+				<div class="about__container">
+					<div class="about__grid">
+						<div class="about__content">
+							<div class="about__badge">
+								<i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i>
+								<span>Featured Game</span>
+							</div>
+							<h2>Bank Heist Adventure</h2>
+							<div class="about__features">
+								<div class="about__feature">
+									<i class="fa-solid fa-clock" aria-hidden="true"></i>
+									<div class="about__feature-content">
+										<h3>Fast-Paced Action</h3>
+										<p>Race against time in intense 3-minute heist runs</p>
+									</div>
+								</div>
+								<div class="about__feature">
+									<i class="fa-solid fa-computer" aria-hidden="true"></i>
+									<div class="about__feature-content">
+										<h3>Dark Web Access</h3>
+										<p>Browse the dark web for upgrades and secrets</p>
+									</div>
+								</div>
+							</div>
+							<a href="#download" class="about__cta">
+								<span>Start The Heist</span>
+								<i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="about__media">
+							<div class="about__image">
+								<img src="img/poster.webp" alt="Turnip Boy Robs a Bank Gameplay">
+							</div>
+							<div class="about__stats">
+								<div class="about__stat">
+									<span class="about__stat-number">4.8</span>
+									<span class="about__stat-label">Rating</span>
+								</div>
+								<div class="about__stat">
+									<span class="about__stat-number">20+</span>
+									<span class="about__stat-label">Weapons</span>
+								</div>
+								<div class="about__stat">
+									<span class="about__stat-number">100+</span>
+									<span class="about__stat-label">Items</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="features" id="features">
+				<div class="features__container">
+					<h2>Game Features</h2>
+					<p class="features__description">Experience a thrilling single-player adventure full of bank
+						robbing, dark web browsing, and intense shootouts. Take on whatever the bank throws at you in
+						this action-packed roguelite!</p>
+					<div class="features__grid">
+						<div class="features__card">
+							<i class="fa-solid fa-bomb" aria-hidden="true"></i>
+							<div class="features__card-content">
+								<h3>Epic Arsenal</h3>
+								<p>Discover and master an array of wacky weapons to fight your way through the bank's
+									defenses</p>
+							</div>
+						</div>
+						<div class="features__card">
+							<i class="fa-solid fa-map" aria-hidden="true"></i>
+							<div class="features__card-content">
+								<h3>Massive Bank</h3>
+								<p>Explore a huge bank complex filled with secrets, loot, and challenging encounters</p>
+							</div>
+						</div>
+						<div class="features__card">
+							<i class="fa-solid fa-arrows-rotate" aria-hidden="true"></i>
+							<div class="features__card-content">
+								<h3>Roguelite Elements</h3>
+								<p>Each run is unique with new challenges, upgrades, and opportunities to get rich</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="gallery" id="gallery">
+				<div class="gallery__container">
+					<h2 class="gallery__title">Gallery</h2>
+					<div class="gallery__grid">
+						<div class="gallery__item">
+							<img src="img/gallery/01.webp" alt="Turnip Boy Bank Heist Screenshot 1">
+						</div>
+						<div class="gallery__item">
+							<img src="img/gallery/02.webp" alt="Turnip Boy Weapons Screenshot 2">
+						</div>
+						<div class="gallery__item">
+							<img src="img/gallery/03.webp" alt="Turnip Boy Combat Screenshot 3">
+						</div>
+						<div class="gallery__item">
+							<img src="img/gallery/04.webp" alt="Turnip Boy Dark Web Screenshot 4">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="trailer" id="trailer">
+				<div class="trailer__container">
+					<h2 class="trailer__title">Game Trailer</h2>
+					<div class="trailer__video">
+						<video class="video-player" poster="img/poster.webp" controls aria-label="Turnip Boy Robs a Bank game trailer video">
+							<source src="files/hero.mp4" type="video/mp4">
+							<p>Your browser does not support the video tag. You can <a href="files/hero.mp4" download>download the video</a> instead.</p>
+						</video>
+					</div>
+				</div>
+			</section>
+
+			<section class="download" id="download">
+				<div class="download__container">
+					<h2 class="download__title">Available Now</h2>
+					<div class="download__platforms">
+						<a href="https://play.google.com/store/apps/details?id=com.pid.tbrab" class="download__button" target="_blank">
+							<i class="fa-brands fa-google-play" aria-hidden="true"></i>
+							<span>Google Play</span>
+						</a>
+						<a href="https://apps.apple.com/ru/app/turnip-boy-robs-a-bank/id6446278596" class="download__button" target="_blank">
+							<i class="fa-brands fa-apple" aria-hidden="true"></i>
+							<span>Apple App Store</span>
+						</a>
+						<a href="https://store.steampowered.com/app/2097230/Turnip_Boy_Robs_a_Bank" class="download__button" target="_blank">
+							<i class="fa-brands fa-steam" aria-hidden="true"></i>
+							<span>Steam</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="reviews" id="reviews">
+				<div class="reviews__container">
+					<h2 class="reviews__title">What Players Say</h2>
+					<div class="reviews__grid">
+						<div class="reviews__card">
+							<div class="reviews__card-rating">
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+							</div>
+							<p class="reviews__card-text">"The perfect blend of action and humor. Love discovering new
+								weapons and causing chaos in the bank!"</p>
+							<div class="reviews__card-author">
+								<div class="reviews__card-initials">RK</div>
+								<span>Ryan K.</span>
+							</div>
+						</div>
+						<div class="reviews__card">
+							<div class="reviews__card-rating">
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+							</div>
+							<p class="reviews__card-text">"Each heist run is unique and exciting. The dark web upgrades
+								add a whole new layer of strategy!"</p>
+							<div class="reviews__card-author">
+								<div class="reviews__card-initials">ML</div>
+								<span>Maria L.</span>
+							</div>
+						</div>
+						<div class="reviews__card">
+							<div class="reviews__card-rating">
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+								<i class="fa-solid fa-star" aria-hidden="true"></i>
+							</div>
+							<p class="reviews__card-text">"The roguelite elements keep me coming back for more. Every
+								run feels fresh and rewarding!"</p>
+							<div class="reviews__card-author">
+								<div class="reviews__card-initials">JT</div>
+								<span>James T.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="cta" id="cta">
+				<div class="cta__container">
+					<h2 class="cta__title">Ready for the Heist?</h2>
+					<p class="cta__description">Download Turnip Boy Robs a Bank now and start your criminal career!</p>
+					<a href="#download" class="cta__button">
+						<i class="fa-solid fa-download" aria-hidden="true"></i>
+						<span>Download Now</span>
+					</a>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__column">
+						<a href="index.html#home" class="footer__logo">
+							<img src="img/logo.webp" alt="Turnip Boy Robs a Bank - Official Site">
+						</a>
+						<p class="footer__description">
+							Welcome to the world of Turnip Boy Robs a Bank! Join our veggie vigilante in his most daring adventure yet.
+							Explore a massive bank, discover wacky weapons, and pull off the ultimate heist in this action-packed roguelite!
+						</p>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Navigation</h3>
+						<ul class="footer__list">
+							<li><a href="index.html#home" class="footer__link">Home</a></li>
+							<li><a href="index.html#about" class="footer__link">About</a></li>
+							<li><a href="index.html#gallery" class="footer__link">Gallery</a></li>
+							<li><a href="index.html#reviews" class="footer__link">Reviews</a></li>
+							<li><a href="index.html#download" class="footer__link">Download</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Legal</h3>
+						<ul class="footer__list">
+							<li><a href="privacy.html" class="footer__link">Privacy Policy</a></li>
+							<li><a href="terms.html" class="footer__link">Terms of Service</a></li>
+							<li><a href="cookie.html" class="footer__link">Cookie Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<p class="footer__copyright"> 2025 bestchoicewiner.com - Official Turnip Boy Robs a Bank website. Turnip Boy Robs a Bank and related properties are trademarks of Snoozy Kazoo.</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Cookie Consent -->
+		<div class="cookie-consent" id="cookieConsent">
+			<div class="cookie-consent__content">
+				<p class="cookie-consent__text">
+					We use cookies to enhance your experience on our website. By continuing to use this site, you agree to our
+					cookie policy.
+				</p>
+				<div class="cookie-consent__buttons">
+					<button class="cookie-btn cookie-btn--primary button button--primary" id="acceptCookies">Accept</button>
+					<button class="cookie-btn cookie-btn--outline button button--outline" id="declineCookies">Decline</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250311134618"></script>
+</body>
+
+</html>
